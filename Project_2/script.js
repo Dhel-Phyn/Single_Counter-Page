@@ -16,6 +16,16 @@ btns.forEach(function (btn) {
       count = 0;
     }
 
-    value.textCount = count
+    if(count < 0){
+      value.style.color ="red"
+    }
+    if(count === 0){
+      value.style.color ="orange"
+    }
+    if(count > 0){
+      value.style.color = "green"
+    }
+
+    value.textContent = count;
   });
 });
