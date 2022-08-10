@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+text-align: center;
+margin: 20px;
+padding: 20px;
+color: black;
+background-color: coral;
+}
+
+.container{
+    background: url("https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60")center/cover no-repeat;
+    border-radius: 20px;
+}
+
+#advice{
+    background-color: cornsilk;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    width: 78vh;
+}
