@@ -1,0 +1,17 @@
+#calculator{
+    display: block;
+    text-align: center;
+    color: blue;
+    margin: 20px;
+    padding: 10px;
+    background-color: darksalmon;
+    position: relative;
+    border-radius: 50px 0 ;
+}
+
+label{
+    margin: 10px;
+    padding: 5px;
+    display: block;
+
+}
